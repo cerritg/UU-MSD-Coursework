@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4D063128C5BF420E9E8B7391 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D7547C5E9C8C463FAC131267 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3E945204EDF84BF5867FE3D5 /* CMake Rules */,
+			);
+			dependencies = (
+				5F7F22FB934B460AA6A50579 /* PBXTargetDependency */,
+				BBE8B378953A44A988D5FEA6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6B3CD6CB84E34FF8845E6EA8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC6D3544E21E4D1895445A7F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8234BB340B6D43AEA78A8AAF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		76A6A7F68E5A4F399372AA88 /* /Users/wheeler/JacobWheeler/GabeJacob/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 15156ACE0DFF4ABDA9FF7CBF /* /Users/wheeler/JacobWheeler/GabeJacob/src/main.cpp */; };
+		ED0220E6A3FF41AB89829188 /* /Users/wheeler/JacobWheeler/GabeJacob/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 93A6A85CBB9B4479B0D1F2BB /* /Users/wheeler/JacobWheeler/GabeJacob/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0B7B09920E5F4D6C95F2EB69 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7A177CE5CFA84DB0AE33FD9B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7CB70156F83F44BE8E48B5BF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C34A0A29002D44C9805C5687 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		49207971A2E447F08EE5CE28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749F6B64DDB449AB8F84F3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3CD6CB84E34FF8845E6EA8;
+			remoteInfo = ZERO_CHECK;
+		};
+		758A426A216B49A0842546F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749F6B64DDB449AB8F84F3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3CD6CB84E34FF8845E6EA8;
+			remoteInfo = ZERO_CHECK;
+		};
+		F1FF33094F4047EB942BC7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749F6B64DDB449AB8F84F3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5EA5188D664F4C9B831C5A;
+			remoteInfo = RacingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15156ACE0DFF4ABDA9FF7CBF /* /Users/wheeler/JacobWheeler/GabeJacob/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		93A6A85CBB9B4479B0D1F2BB /* /Users/wheeler/JacobWheeler/GabeJacob/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CBD9ADF9ED9B4784A356B057 /* RacingGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = RacingGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28D43F64ED14A54B00DC441 /* /Users/wheeler/JacobWheeler/GabeJacob/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4C22C7083D314380B59BE99E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		72C9DFAD971B42518291718F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD9ADF9ED9B4784A356B057 /* RacingGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B2BF811990488BA8C00C34 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				15156ACE0DFF4ABDA9FF7CBF /* /Users/wheeler/JacobWheeler/GabeJacob/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B54D9C971DFF40F3A63F0172 /* RacingGame */ = {
+			isa = PBXGroup;
+			children = (
+				A8B2BF811990488BA8C00C34 /* Source Files */,
+				93A6A85CBB9B4479B0D1F2BB /* /Users/wheeler/JacobWheeler/GabeJacob/CMakeLists.txt */,
+			);
+			name = RacingGame;
+			sourceTree = "<group>";
+		};
+		D0CDA153320C41A29FBBC192 = {
+			isa = PBXGroup;
+			children = (
+				B54D9C971DFF40F3A63F0172 /* RacingGame */,
+				DB742C5D2030409B9FACC751 /* ALL_BUILD */,
+				72C9DFAD971B42518291718F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB742C5D2030409B9FACC751 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4C22C7083D314380B59BE99E /* CMake Rules */,
+				F28D43F64ED14A54B00DC441 /* /Users/wheeler/JacobWheeler/GabeJacob/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5EA5188D664F4C9B831C5A /* RacingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281C4EB25D7E47E290358E0A /* Build configuration list for PBXNativeTarget "RacingGame" */;
+			buildPhases = (
+				5506A8D54A234281A9FB2A04 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531FA81DC3C149AC840CB421 /* PBXTargetDependency */,
+			);
+			name = RacingGame;
+			productName = RacingGame;
+			productReference = CBD9ADF9ED9B4784A356B057 /* RacingGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749F6B64DDB449AB8F84F3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 70830FED69E44595B19E41C5 /* Build configuration list for PBXProject "RacingGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0B7B09920E5F4D6C95F2EB69 /* Debug */,
+				C34A0A29002D44C9805C5687 /* Release */,
+				7A177CE5CFA84DB0AE33FD9B /* MinSizeRel */,
+				7CB70156F83F44BE8E48B5BF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D0CDA153320C41A29FBBC192;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				4D063128C5BF420E9E8B7391 /* ALL_BUILD */,
+				5F5EA5188D664F4C9B831C5A /* RacingGame */,
+				6B3CD6CB84E34FF8845E6EA8 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E945204EDF84BF5867FE3D5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wheeler/JacobWheeler/GabeJacob/xcode -f /Users/wheeler/JacobWheeler/GabeJacob/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		60129B2983464BD480E0C7C2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8234BB340B6D43AEA78A8AAF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wheeler/JacobWheeler/GabeJacob/xcode -f /Users/wheeler/JacobWheeler/GabeJacob/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B65DA93196A14BB5B0AC11BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5506A8D54A234281A9FB2A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A6A7F68E5A4F399372AA88 /* /Users/wheeler/JacobWheeler/GabeJacob/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531FA81DC3C149AC840CB421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3CD6CB84E34FF8845E6EA8 /* ZERO_CHECK */;
+			targetProxy = 49207971A2E447F08EE5CE28 /* PBXContainerItemProxy */;
+		};
+		5F7F22FB934B460AA6A50579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5EA5188D664F4C9B831C5A /* RacingGame */;
+			targetProxy = F1FF33094F4047EB942BC7AF /* PBXContainerItemProxy */;
+		};
+		BBE8B378953A44A988D5FEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3CD6CB84E34FF8845E6EA8 /* ZERO_CHECK */;
+			targetProxy = 758A426A216B49A0842546F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		022F01EEADF442D591118BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		031DBBE493234D2690537F17 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1DDFC46C9D8A49338B0F73B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		451F2BA2A2F44157A0BB6089 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		484398711FD7416E8F8E6E3A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4940E7A9E2484E77914467CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode/build;
+			};
+			name = Release;
+		};
+		4E1D25E381D84C0C8668F710 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		53E8492F29C64904AEDC051C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		60CA853A40E746AA8A663EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6766D19CB097480B80F73C3B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		7DFD7C1FCC504E058913D77B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AFBE28A93A934E1F93E9ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B03F2A3D9591428B8CB85ECF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CDAFCCBF5A3F471CBB7F4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode/build;
+			};
+			name = Debug;
+		};
+		D380A9007E3F426B9D2BFD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EF550F10E91442BA8C41106E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wheeler/JacobWheeler/GabeJacob/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281C4EB25D7E47E290358E0A /* Build configuration list for PBXNativeTarget "RacingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022F01EEADF442D591118BD3 /* Debug */,
+				D380A9007E3F426B9D2BFD4A /* Release */,
+				451F2BA2A2F44157A0BB6089 /* MinSizeRel */,
+				031DBBE493234D2690537F17 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70830FED69E44595B19E41C5 /* Build configuration list for PBXProject "RacingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAFCCBF5A3F471CBB7F4345 /* Debug */,
+				4940E7A9E2484E77914467CD /* Release */,
+				6766D19CB097480B80F73C3B /* MinSizeRel */,
+				4E1D25E381D84C0C8668F710 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7547C5E9C8C463FAC131267 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E8492F29C64904AEDC051C /* Debug */,
+				60CA853A40E746AA8A663EB3 /* Release */,
+				1DDFC46C9D8A49338B0F73B8 /* MinSizeRel */,
+				7DFD7C1FCC504E058913D77B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC6D3544E21E4D1895445A7F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF550F10E91442BA8C41106E /* Debug */,
+				AFBE28A93A934E1F93E9ACA5 /* Release */,
+				B03F2A3D9591428B8CB85ECF /* MinSizeRel */,
+				484398711FD7416E8F8E6E3A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749F6B64DDB449AB8F84F3E8 /* Project object */;
+}

@@ -1,0 +1,25 @@
+Racing Obstacle Game:
+
+Classes & Methods needed:
+	- car
+	   - moveCar
+	   - userInput
+
+	- obstacle
+	   - moveObstacle
+	   - destroyObstacle
+
+	- background
+	   - updateScore
+	   - invertColors
+
+	- road
+	   - lane
+
+	- GameStateManager
+	   - carPos
+	   - obstaclePos
+
+
+Goal:
+Have a car that sits on a road. The car will move left and right to dodge obstacles.
